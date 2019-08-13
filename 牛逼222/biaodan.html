@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+</head>
+
+<body>
+<form action="bug.html">
+	<fieldset>
+	<legend>person information:</legend>
+	firstname<br/>
+	<input type="text" value="liwanbo" readonly><br/>
+	secondname<br/>
+	<input type="text" value="liwanbo" size="10"><br/>
+	
+	<input type="radio"name="sex" value="male" checked>male<br/>
+	<input type="radio" name="sex" value="famale">famale<br/>
+	<input type="checkbox" name="sex" value="famales">famales<br/>
+	
+	<input type="button"name="number" disabled>2<br/>
+	<input type="button"name="number">3<br/>
+	<input type="button"name="number" >4<br/>
+	<button type="button" onClick="alert('hello liwanbo')">click it!</button>
+	<input type="button"name="number" value="6">6<br/>
+	<input type="submit" value="submit"></fieldset><br/>
+	quntity:<br/>
+	<input type="number" min="23" max="200" step="10" value="45"><br/>
+	birthday:<br/>
+	<input type="date" name="bday" min="2000-1-1" max="2019-4-1"><br/>
+	<input type="range" name="points" min="5" max="34"><br/>
+	<input type="month" name="numonth"><br/>
+	E-mail:<br/>
+	<input type="email" name="email"><br/>
+</form>
+</body>
+</html>
+<!--
+checked为默认选中的意思，本身并没有太大用处，不过在用于JS判定时就比较有用了
+readonly没有disabled严格，readonly只对文本表单起作用，而disabled对任何表单都起作用比如button
+-->

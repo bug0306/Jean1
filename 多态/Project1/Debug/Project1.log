@@ -1,0 +1,8 @@
+﻿  circle.cpp
+  rect.cpp
+  rect.h
+  shape.cpp
+  多态1.cpp
+  正在生成代码...
+Debug\rect.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+  Project1.vcxproj -> C:\Users\李万波\source\repos\Project1\Debug\Project1.exe

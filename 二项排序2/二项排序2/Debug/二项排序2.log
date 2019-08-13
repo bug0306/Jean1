@@ -1,0 +1,14 @@
+﻿  demo.cpp
+c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\algorithm(92): error C2664: “void (std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>)”: 无法将参数 1 从“std::pair<std::string,int>”转换为“std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>”
+          with
+          [
+              _Ty=std::pair<std::string,int>
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\enterprise\vc\tools\msvc\14.16.27023\include\algorithm(92): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+  d:\files\二项排序2\二项排序2\demo.cpp(32): note: 参见对正在编译的函数 模板 实例化“_Fn (__cdecl *std::for_each<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,void(__cdecl *)(std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>)>(_InIt,_InIt,_Fn))(std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>)”的引用
+          with
+          [
+              _Fn=void (__cdecl *)(std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::pair<std::string,int>>>>),
+              _Ty=std::pair<std::string,int>,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<std::pair<std::string,int>>>>
+          ]

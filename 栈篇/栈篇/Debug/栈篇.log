@@ -1,0 +1,3 @@
+﻿  demo.cpp
+d:\files\栈篇\栈篇\demo.cpp(15): warning C4018: “<”: 有符号/无符号不匹配
+  栈篇.vcxproj -> D:\files\栈篇\Debug\栈篇.exe

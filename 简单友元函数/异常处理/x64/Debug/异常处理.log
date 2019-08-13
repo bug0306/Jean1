@@ -1,0 +1,7 @@
+﻿  average.cpp
+c:\users\李万波\source\repos\异常处理\异常处理\average.h(7): error C2061: 语法错误: 标识符“student”
+c:\users\李万波\source\repos\异常处理\异常处理\average.cpp(4): error C2511: “void average::pingjun(student)”:“average”中没有找到重载的成员函数
+  c:\users\李万波\source\repos\异常处理\异常处理\average.h(3): note: 参见“average”的声明
+  对象数组.cpp
+  正在生成代码...
+C:\Users\李万波\source\repos\异常处理\异常处理\对象数组.cpp : fatal error C1069: 无法读取编译器命令行

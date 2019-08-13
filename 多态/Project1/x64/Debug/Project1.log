@@ -1,0 +1,5 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(Project1.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  多态1.cpp
+x64\Debug\rect.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+多态1.obj : error LNK2019: 无法解析的外部符号 "public: __cdecl rect::rect(double)" (??0rect@@QEAA@N@Z)，该符号在函数 main 中被引用
+C:\Users\李万波\source\repos\Project1\x64\Debug\多态1.exe : fatal error LNK1120: 1 个无法解析的外部命令

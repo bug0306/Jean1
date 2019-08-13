@@ -1,0 +1,11 @@
+﻿  demo.cpp
+d:\files\队列\队列\demo.cpp(17): error C2664: “bool mydeque::endeque(comtumer)”: 无法将参数 1 从“int”转换为“comtumer”
+  d:\files\队列\队列\demo.cpp(17): note: 无构造函数可以接受源类型，或构造函数重载决策不明确
+d:\files\队列\队列\demo.cpp(18): error C2664: “bool mydeque::endeque(comtumer)”: 无法将参数 1 从“int”转换为“comtumer”
+  d:\files\队列\队列\demo.cpp(18): note: 无构造函数可以接受源类型，或构造函数重载决策不明确
+d:\files\队列\队列\demo.cpp(19): error C2664: “bool mydeque::endeque(comtumer)”: 无法将参数 1 从“int”转换为“comtumer”
+  d:\files\队列\队列\demo.cpp(19): note: 无构造函数可以接受源类型，或构造函数重载决策不明确
+d:\files\队列\队列\demo.cpp(20): error C2664: “bool mydeque::endeque(comtumer)”: 无法将参数 1 从“int”转换为“comtumer”
+  d:\files\队列\队列\demo.cpp(20): note: 无构造函数可以接受源类型，或构造函数重载决策不明确
+d:\files\队列\队列\demo.cpp(24): error C2664: “bool mydeque::dedeque(comtumer &)”: 无法将参数 1 从“int”转换为“comtumer &”
+d:\files\队列\队列\demo.cpp(27): error C2664: “bool mydeque::dedeque(comtumer &)”: 无法将参数 1 从“int”转换为“comtumer &”
